@@ -1,0 +1,41 @@
+
+【FastDFS - 服务端文件目录介绍】
+参见：https://github.com/tobato/FastDFS_Client/wiki/06_path
+
+【TrackerServer - 文件目录】
+${base_path} 
+|__data 
+|     |__storage_groups.dat：存储分组信息 
+|     |__storage_servers.dat：存储服务器列表 
+|__logs 
+   |__trackerd.log：tracker server日志文件
+
+
+【StorageServer - 文件目录】
+
+${base_path} 
+|__data 
+|     |__.data_init_flag：当前storage server 初始化信息 
+|     |__storage_stat.dat：当前storage server统计信息 
+|     |__sync：存放数据同步相关文件 
+|     |     |__binlog.index：当前的binlog文件索引号 
+|     |     |__binlog.###：存放更新操作记录（日志） 
+|     |     |__${ip_addr}_${port}.mark：存放同步的完成情况 
+|     | 
+|     |__一级目录：256个存放数据文件的目录，如：00, 1F 
+|           |__二级目录：256个存放数据文件的目录 
+|__logs 
+   |__storaged.log：storage server日志文件
+
+
+
+
+
+
+
+
+
+
+
+
+

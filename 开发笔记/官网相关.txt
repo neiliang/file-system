@@ -1,0 +1,43 @@
+论坛：http://bbs.chinaunix.net/forum-240-1.html
+常见问题：http://bbs.chinaunix.net/thread-1920470-1-1.html
+
+https://github.com/happyfish100
+https://www.oschina.net/p/fastdfs?hmsr=aladdin1e1
+
+FastDFS项目源码：https://github.com/happyfish100/fastdfs
+国内源码库：https://gitee.com/fastdfs100/fastdfs
+下载：
+https://github.com/happyfish100/fastdfs/releases
+https://github.com/happyfish100/libfastcommon/releases
+https://github.com/happyfish100/fastdfs-nginx-module/releases
+
+
+
+Java客户端项目源码：https://github.com/happyfish100/fastdfs-client-java
+      https://github.com/happyfish100/fastdfs-client-java/releases
+
+
+官方wiki：https://github.com/happyfish100/fastdfs/wiki
+https://github.com/happyfish100/fastdfs/wiki/Configuration
+
+
+
+FastDFS分布式文件系统：https://www.cnblogs.com/Leo_wl/p/6731647.html
+分布式文件系统FastDFS设计原理：http://blog.chinaunix.net/uid-20196318-id-4058561.html
+
+FastDFS存储文件大小：4kb ~ 500MB
+
+
+
+
+
+
+【springmvc 集成swagger. - 开发依赖】
+
+<!-- https://mvnrepository.com/artifact/net.oschina.zcx7878/fastdfs-client-java -->
+<dependency>
+    <groupId>net.oschina.zcx7878</groupId>
+    <artifactId>fastdfs-client-java</artifactId>
+    <version>1.27.0.0</version>
+</dependency>
+

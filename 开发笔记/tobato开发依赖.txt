@@ -1,0 +1,21 @@
+
+项目源码地址：https://github.com/tobato/FastDFS_Client
+https://github.com/tobato/FastDFS_Client/wiki
+
+<!-- https://mvnrepository.com/artifact/com.github.tobato/fastdfs-client -->
+基于yuqih发布的代码与fastdfs-client 官方1.26版本的重构
+<dependency>
+    <groupId>com.github.tobato</groupId>
+    <artifactId>fastdfs-client</artifactId>
+    <version>1.27.2</version>
+</dependency>
+
+
+
+
+https://github.com/tobato/FastDFS_Client
+https://github.com/tobato/FastDFS_Client/wiki
+
+
+
+

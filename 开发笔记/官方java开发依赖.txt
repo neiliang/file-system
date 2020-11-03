@@ -1,0 +1,66 @@
+https://www.oschina.net/p/fastdfs?hmsr=aladdin1e1
+
+https://github.com/happyfish100
+
+FastDFS项目源码：https://github.com/happyfish100/fastdfs
+Java客户端项目源码：https://github.com/happyfish100/fastdfs-client-java
+https://github.com/happyfish100/fastdfs-client-java/releases
+
+
+
+
+FastDFS分布式文件系统：https://www.cnblogs.com/Leo_wl/p/6731647.html
+分布式文件系统FastDFS设计原理：http://blog.chinaunix.net/uid-20196318-id-4058561.html
+
+4kb ~ 500MB
+
+【下载编译官方Java客户端】
+
+1.下载：https://github.com/happyfish100/fastdfs-client-java/releases
+
+2.解压：fastdfs-client-java-1.27.zip
+
+3.cd
+fastdfs-client-java-1.27-RELEASE
+
+4.修改pom.xml
+
+<version>1.27-SNAPSHOT</version>  改为 <version>1.27-RELEASE</version>
+<jdk.version>1.6</jdk.version> 改为 <jdk.version>1.8</jdk.version>
+
+5.执行：mvn clean install
+
+或者：mvn install:install-file -DgroupId=org.csource -DartifactId=fastdfs-client-java -Dversion=${version} -Dpackaging=jar -Dfile=fastdfs-client-java-${version}.jar
+
+mvn install:install-file -DgroupId=org.csource -DartifactId=fastdfs-client-java -Dversion=1.27-RELEASE -Dpackaging=jar -Dfile=fastdfs-client-java-1.27-RELEASE.jar
+
+6.将编译好的jar包安装到本地仓库的对应目录
+
+7.项目中引入依赖：
+
+<dependency>
+    <groupId>org.csource</groupId>
+    <artifactId>fastdfs-client-java</artifactId>
+    <version>1.27-RELEASE</version>
+</dependency>
+
+
+
+
+【Maven - 仓库依赖】
+<!-- https://mvnrepository.com/artifact/org.csource/fastdfs-client-java -->
+<dependency>
+    <groupId>org.csource</groupId>
+    <artifactId>fastdfs-client-java</artifactId>
+    <version>1.27-RELEASE</version>
+</dependency>
+
+最新：
+<dependency>
+    <groupId>org.csource</groupId>
+    <artifactId>fastdfs-client-java</artifactId>
+    <version>1.29-SNAPSHOT</version>
+</dependency>
+
+
+

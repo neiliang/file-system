@@ -1,0 +1,20 @@
+
+
+【Ceph,TFS,FastDFS,MogileFS,MooseFS,GlusterFS 对比】
+
+参见：https://www.cnblogs.com/yswenli/p/7234579.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
